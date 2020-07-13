@@ -10,22 +10,22 @@ namespace _1_SplitMethod
         /// <param name="args">catType</param>
         static void Main(string[] args)
         {
-            writeLog("Start Process");
+            WriteLog("Start Process");
 
             string carType = args[0];
-            if (!runCar(carType))
+            if (!RunCar(carType))
             {
-                writeLog("No carType Found");
+                WriteLog("No carType Found");
             }
 
-            writeLog("End Process");
+            WriteLog("End Process");
         }
 
         /// <summary>
         /// Write Log In Console
         /// </summary>
         /// <param name="message">message to write</param>
-        static void writeLog(string message)
+        static void WriteLog(string message)
         {
             Console.WriteLine(message);
         }
@@ -35,7 +35,7 @@ namespace _1_SplitMethod
         /// </summary>
         /// <param name="carType">car</param>
         /// <returns>if catType found return true, else return false.</returns>
-        static bool runCar(string carType)
+        static bool RunCar(string carType)
         {
             switch (carType)
             {
