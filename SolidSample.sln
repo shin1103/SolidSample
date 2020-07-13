@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-ImplementInterface", "4-I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-ImplementFactory", "5-ImplementFactory\5-ImplementFactory.csproj", "{EC893402-4FE1-4F47-811A-15C58DB40A7C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-AddSirenInterfaceMethod", "6-AddSirenInterfaceMethod\6-AddSirenInterfaceMethod.csproj", "{C7021393-FA00-4AD3-988F-376CC8D6152D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{EC893402-4FE1-4F47-811A-15C58DB40A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC893402-4FE1-4F47-811A-15C58DB40A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC893402-4FE1-4F47-811A-15C58DB40A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7021393-FA00-4AD3-988F-376CC8D6152D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7021393-FA00-4AD3-988F-376CC8D6152D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7021393-FA00-4AD3-988F-376CC8D6152D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7021393-FA00-4AD3-988F-376CC8D6152D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
