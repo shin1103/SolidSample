@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-SplitCar", "3-SplitCar\3-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-ImplementInterface", "4-ImplementInterface\4-ImplementInterface.csproj", "{DA4C1085-930E-4525-992C-E338C28BE1C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-ImplementFactory", "5-ImplementFactory\5-ImplementFactory.csproj", "{EC893402-4FE1-4F47-811A-15C58DB40A7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DA4C1085-930E-4525-992C-E338C28BE1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA4C1085-930E-4525-992C-E338C28BE1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA4C1085-930E-4525-992C-E338C28BE1C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC893402-4FE1-4F47-811A-15C58DB40A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC893402-4FE1-4F47-811A-15C58DB40A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC893402-4FE1-4F47-811A-15C58DB40A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC893402-4FE1-4F47-811A-15C58DB40A7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
