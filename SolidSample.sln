@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-ImplementFactory", "5-Imp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-AddSirenInterfaceMethod", "6-AddSirenInterfaceMethod\6-AddSirenInterfaceMethod.csproj", "{C7021393-FA00-4AD3-988F-376CC8D6152D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7-InterfaceSegregation", "7-InterfaceSegregation\7-InterfaceSegregation.csproj", "{6E430EFF-1AAD-4E8E-A25F-4C751061E0FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{C7021393-FA00-4AD3-988F-376CC8D6152D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7021393-FA00-4AD3-988F-376CC8D6152D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7021393-FA00-4AD3-988F-376CC8D6152D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E430EFF-1AAD-4E8E-A25F-4C751061E0FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E430EFF-1AAD-4E8E-A25F-4C751061E0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E430EFF-1AAD-4E8E-A25F-4C751061E0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E430EFF-1AAD-4E8E-A25F-4C751061E0FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
