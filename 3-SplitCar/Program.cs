@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _3_CarInterface
+namespace _3_SplitCar
 {
     class Program
     {

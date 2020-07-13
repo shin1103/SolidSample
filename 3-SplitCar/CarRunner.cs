@@ -1,9 +1,9 @@
-﻿using _3_SPlitCar.Car;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using _3_SplitCar.Car;
 
-namespace _3_CarInterface
+namespace _3_SplitCar
 {
     static class CarRunner
     {

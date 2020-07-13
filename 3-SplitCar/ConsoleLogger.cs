@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace _3_CarInterface
+namespace _3_SplitCar
 {
     static class ConsoleLogger
     {

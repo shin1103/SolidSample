@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace _3_SPlitCar.Car
+namespace _3_SplitCar.Car
 {
     class FireEngine
     {
