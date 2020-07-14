@@ -7,17 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0-Initial", "0-Initial\0-In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-SplitMethod", "1-SplitMethod\1-SplitMethod.csproj", "{5C45BB40-247B-4E8F-AB12-E236D226EB15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-SplitClass", "2-SplitClass\2-SplitClass.csproj", "{AC2D720C-9B8A-47C9-B578-AC8EB1F9C065}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2-SplitClass", "2-SplitClass\2-SplitClass.csproj", "{AC2D720C-9B8A-47C9-B578-AC8EB1F9C065}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-SplitCar", "3-SplitCar\3-SplitCar.csproj", "{299271EE-E581-4819-AC1E-20F3626E743D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-ImplementInterface", "4-ImplementInterface\4-ImplementInterface.csproj", "{DA4C1085-930E-4525-992C-E338C28BE1C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-ImplementInterface", "4-ImplementInterface\4-ImplementInterface.csproj", "{DA4C1085-930E-4525-992C-E338C28BE1C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-ImplementFactory", "5-ImplementFactory\5-ImplementFactory.csproj", "{EC893402-4FE1-4F47-811A-15C58DB40A7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5-ImplementFactory", "5-ImplementFactory\5-ImplementFactory.csproj", "{EC893402-4FE1-4F47-811A-15C58DB40A7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-AddSirenInterfaceMethod", "6-AddSirenInterfaceMethod\6-AddSirenInterfaceMethod.csproj", "{C7021393-FA00-4AD3-988F-376CC8D6152D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6-AddSirenInterfaceMethod", "6-AddSirenInterfaceMethod\6-AddSirenInterfaceMethod.csproj", "{C7021393-FA00-4AD3-988F-376CC8D6152D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7-InterfaceSegregation", "7-InterfaceSegregation\7-InterfaceSegregation.csproj", "{6E430EFF-1AAD-4E8E-A25F-4C751061E0FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7-InterfaceSegregation", "7-InterfaceSegregation\7-InterfaceSegregation.csproj", "{6E430EFF-1AAD-4E8E-A25F-4C751061E0FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8-LiskovSubstitution", "8-LiskovSubstitution\8-LiskovSubstitution.csproj", "{C808603B-DE16-4BEC-953E-8A84373B4FB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{6E430EFF-1AAD-4E8E-A25F-4C751061E0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E430EFF-1AAD-4E8E-A25F-4C751061E0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E430EFF-1AAD-4E8E-A25F-4C751061E0FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C808603B-DE16-4BEC-953E-8A84373B4FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C808603B-DE16-4BEC-953E-8A84373B4FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C808603B-DE16-4BEC-953E-8A84373B4FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C808603B-DE16-4BEC-953E-8A84373B4FB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
