@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Diagnostics.Contracts;
 using System.Text;
 
 namespace _8_LiskovSubstitution.Car
@@ -15,24 +16,24 @@ namespace _8_LiskovSubstitution.Car
         public override void SetVelocity(int velocity)
         {
             // (precondition) this limitation is stricter than CarBase -> violated Liskov's substitution principle
-            Debug.Assert(velocity >= 80);
+            Contract.Requires(velocity >= 80);
             base._velocity = velocity;
         }
 
         public override int GetRemainingGasoline()
         {
             // Calculate RemainingGasoline
-            var remaining = this.CalculateRemainingGasolineForBus();
+            this.CalculateRemainingGasolineForBus();
 
             // (postcondition) this limitation is stricter than CarBase -> It's OK
-            Debug.Assert(remaining >= 30);
-            return remaining;
+            Contract.Ensures(base._gasoline >= 30);
+            return base._gasoline;
         }
 
-        private int CalculateRemainingGasolineForBus()
+        private void CalculateRemainingGasolineForBus()
         {
             var rand = new Random();
-            return rand.Next(0, 30);
+            base._gasoline =  rand.Next(0, 30);
         }
 
     }

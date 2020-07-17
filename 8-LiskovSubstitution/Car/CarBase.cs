@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Diagnostics.Contracts;
 using System.Text;
 
 namespace _8_LiskovSubstitution.Car
@@ -8,6 +9,7 @@ namespace _8_LiskovSubstitution.Car
     class CarBase
     {
         protected int _velocity = 0;
+        protected int _gasoline = 0;
 
 
         public virtual void Run()
@@ -18,7 +20,7 @@ namespace _8_LiskovSubstitution.Car
         public virtual void SetVelocity(int velocity)
         {
             // limitation of velocity
-            Debug.Assert(velocity >= 100);
+            Contract.Requires(velocity >= 100);
 
             this._velocity = velocity;
         }
@@ -26,17 +28,22 @@ namespace _8_LiskovSubstitution.Car
         public virtual int GetRemainingGasoline()
         {
             // Calculate RemainingGasoline
-            var remaining = this.CalculateRemainingGasoline();
+            this.CalculateRemainingGasoline();
 
-            Debug.Assert(remaining >= 50);
-            return remaining;
+            Contract.Ensures(this._gasoline >= 50);
+            return this._gasoline;
         }
 
-        private int CalculateRemainingGasoline()
+        private void CalculateRemainingGasoline()
         {
             var rand = new Random();
-            return rand.Next(0, 50);
+            this._gasoline = rand.Next(0, 50);
         }
 
+        [ContractInvariantMethod]
+        protected void ObjectInvariant()
+        {
+            Contract.Invariant(this._gasoline >= 0);
+        }
     }
 }

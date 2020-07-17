@@ -6,4 +6,8 @@
     <RootNamespace>_8_LiskovSubstitution</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Diagnostics.Contracts" Version="4.3.0" />
+  </ItemGroup>
+
 </Project>
